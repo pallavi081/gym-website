@@ -1,26 +1,19 @@
-// Dark Mode Toggle
 const darkBtn = document.getElementById("darkModeBtn");
+
+// Check saved mode
+if (localStorage.getItem("theme") === "dark") {
+  document.body.classList.add("dark");
+  darkBtn.textContent = "☀️";
+}
 
 darkBtn.addEventListener("click", () => {
   document.body.classList.toggle("dark");
+
+  if (document.body.classList.contains("dark")) {
+    localStorage.setItem("theme", "dark");
+    darkBtn.textContent = "☀️";
+  } else {
+    localStorage.setItem("theme", "light");
+    darkBtn.textContent = "🌙";
+  }
 });
-
-// Scroll to Plans
-function scrollToPlans() {
-  document.getElementById("plans").scrollIntoView({
-    behavior: "smooth"
-  });
-}
-
-// Scroll Animation
-const sections = document.querySelectorAll(".hidden");
-
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add("show");
-    }
-  });
-});
-
-sections.forEach(section => observer.observe(section));
