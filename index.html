@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PowerFit Gym</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CSS File -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<header>
+  <nav>
+    <h1 class="logo">PowerFit</h1>
+
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#facilities">Facilities</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#plans">Plans</a></li>
+    </ul>
+
+    <!-- Dark Mode Button -->
+    <button id="darkModeBtn">🌙</button>
+  </nav>
+</header>
+
+<!-- ===== HERO SECTION ===== -->
+<section id="home" class="hero">
+  <h2>Transform Your Body</h2>
+  <p>Join PowerFit Gym and stay fit & healthy</p>
+  <button onclick="scrollToPlans()">Join Now</button>
+</section>
+
+<!-- ===== FACILITIES ===== -->
+<section id="facilities" class="hidden">
+  <h2>Our Facilities</h2>
+  <div class="cards">
+    <div class="card">Modern Equipment</div>
+    <div class="card">Cardio Zone</div>
+    <div class="card">Free Weights</div>
+    <div class="card">Locker Room</div>
+  </div>
+</section>
+
+<!-- ===== SERVICES ===== -->
+<section id="services" class="hidden">
+  <h2>Our Services</h2>
+  <div class="cards">
+    <div class="card">Personal Training</div>
+    <div class="card">Yoga & Zumba</div>
+    <div class="card">Nutrition Guidance</div>
+    <div class="card">Online Coaching</div>
+  </div>
+</section>
+
+<!-- ===== PLANS ===== -->
+<section id="plans" class="hidden">
+  <h2>Membership Plans</h2>
+
+  <div class="plans">
+    <div class="plan">
+      <h3>Basic</h3>
+      <p>₹999 / month</p>
+      <button>Choose</button>
+    </div>
+
+    <div class="plan popular">
+      <h3>Standard</h3>
+      <p>₹1999 / month</p>
+      <button>Choose</button>
+    </div>
+
+    <div class="plan">
+      <h3>Premium</h3>
+      <p>₹2999 / month</p>
+      <button>Choose</button>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <p>© 2026 PowerFit Gym</p>
+</footer>
+
+<!-- JavaScript -->
+<script src="script.js"></script>
+</body>
+</html>
