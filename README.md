@@ -59,7 +59,7 @@ npm run dev
 
 ## 👩‍💻 Author
 
-**Pallavi kkumari(url)**
+**Pallavi kkumari**
 
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github)](https://github.com/pallavi081)
 
