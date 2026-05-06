@@ -33,8 +33,8 @@ const Footer = () => {
             <h4 className="font-bold mb-6 uppercase tracking-wider">Contact Us</h4>
             <ul className="space-y-4 text-gray-400 text-sm">
               <li>123 Fitness Street, New Delhi, India</li>
-              <li>+91 98765 43210</li>
-              <li>hello@powerfit.com</li>
+              <li>+91 9931322271</li>
+              <li>shripallavi3108@gmail.com</li>
             </ul>
           </div>
         </div>
